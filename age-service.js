@@ -2,10 +2,14 @@
 const cache = require('./cache');
 
 const ages = {
-  John: '20',
-  Michelle: '34',
-  Amy: '31',
-  Doug: '22'
+  storm: '20',
+  michele: '34',
+  iris: '31',
+  hb: '22',
+  pedro: '41',
+  michael: '87',
+  ron: '34',
+  nancy: '43'
 }
 
 const getAgeFromDb = (name, cb) => setTimeout(() => {
